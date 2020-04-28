@@ -38,6 +38,7 @@ dependencies {
     annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'
     implementation 'com.google.android.material:material:1.1.0'
 
-    api 'com.theartofdev.edmodo:android-image-cropper:2.8.+'
     implementation 'com.github.chrisbanes:PhotoView:2.0.0'
+    api 'com.theartofdev.edmodo:android-image-cropper:2.8.+'    // cropper library
+    implementation 'com.android.volley:volley:1.1.1'            // http library
 }
